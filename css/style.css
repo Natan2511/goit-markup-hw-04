@@ -146,6 +146,11 @@ body {
 :focus {
   color: var(--vivid-blue);
 }
+.icon-contacts {
+  margin-right: 10px;
+}
+.icon-contacts {
+}
 
 /* ---------------------MAIN=HEADER+BUTTON--------------------- */
 .header-main {
