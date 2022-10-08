@@ -146,13 +146,31 @@ body {
 :focus {
   color: var(--vivid-blue);
 }
-.icon-contacts {
+.icon-mail {
+  width: 16px;
+  height: 12px;
   margin-right: 10px;
 }
-.icon-contacts {
+.icon-tel {
+  width: 10px;
+  height: 16px;
+  margin-right: 10px;
+}
+.icon-mail:hover {
+  fill: var(--vivid-blue);
+}
+.icon-tel:hover {
+  fill: var(--vivid-blue);
 }
 
 /* ---------------------MAIN=HEADER+BUTTON--------------------- */
+.header-bg-container {
+  background: var(--light-gray);
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
 .header-main {
   background-image: linear-gradient(
       rgba(47, 48, 58, 0.4),
@@ -220,6 +238,20 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   color: var(--white);
+}
+.icon-antenna-bg {
+  background: var(--light-grayish-blue);
+  border-radius: 4px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  padding: 25px 100px 25px 100px;
+  max-height: 120px;
+  max-width: 270px;
+}
+.icon-items {
+  width: 70px;
+  height: 70px;
 }
 
 /* ---------------------MAIN=SPECIALITIES--------------------- */
@@ -312,6 +344,10 @@ body {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
+}
+.team-links {
+  min-width: 44px;
+  min-height: 44px;
 }
 
 /* ---------------------FOOTER--------------------- */
