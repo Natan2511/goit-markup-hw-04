@@ -63,6 +63,7 @@ img {
 }
 
 body {
+  overflow-x: hidden;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -126,11 +127,13 @@ body {
 }
 .header-cont-flex {
   display: flex;
-  margin-left: auto;
-  gap: 50px;
+  justify-content: center;
   align-items: center;
+  width: 161px;
+  height: 16px;
 }
 .header-tel {
+  display: flex;
   font-weight: 500;
   line-height: 16px;
   letter-spacing: 0.02em;
@@ -140,7 +143,13 @@ body {
 .header-tel:focus {
   color: var(--vivid-blue);
 }
+.header-link-flex {
+  display: flex;
+  gap: 30px;
+  margin-left: auto;
+}
 .header-mail {
+  display: flex;
   font-weight: 500;
   line-height: 16px;
   letter-spacing: 0.02em;
