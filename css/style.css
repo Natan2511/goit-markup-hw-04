@@ -9,6 +9,8 @@
   --light-grayish-blue: #f5f4fa;
   --light-gray: #c4c4c4;
   --grayish-blue: #afb1b8;
+  --very-light-gray: #ececec;
+  --very-light-gray-two: #eeeeee;
 }
 
 p,
@@ -390,7 +392,7 @@ body {
 }
 .regular-link {
   height: 100%;
-  border: 1px solid #afb1b8;
+  border: 1px solid var(--grayish-blue);
   border-radius: 4px;
   display: flex;
   align-items: center;
@@ -516,7 +518,7 @@ body {
 }
 .header-port {
   margin-bottom: 94px;
-  border-bottom: 1px solid #ececec;
+  border-bottom: 1px solid var(--very-light-gray);
 }
 
 /* ---------------------FILTERS--------------------- */
@@ -584,7 +586,7 @@ body {
   gap: 8px;
 }
 .cards-flex {
-  border: 1px solid #eeeeee;
+  border: 1px solid var(--very-light-gray-two);
   padding-top: 20px;
   border-top: 0;
   padding: 20px 24px;
@@ -592,7 +594,6 @@ body {
 .project-list {
 }
 .project-list:hover {
-  border: 1px solid #eeeeee;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
