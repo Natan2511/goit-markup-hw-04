@@ -577,7 +577,6 @@ body {
   width: 370px;
   height: 404px;
   background: #ffffff;
-  border: 1px solid #eeeeee;
 }
 .project-item {
 }
@@ -599,6 +598,7 @@ body {
   padding-top: 20px;
   border-top: 0;
   padding: 20px 24px;
+  border: 1px solid #eeeeee;
 }
 .project-list:hover,
 .project-item:focus {
